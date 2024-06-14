@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="cs">
+  <head>
+    <title>Práce všeho druhu</title>
+    <meta charset='utf-8'>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <!-- Latest compiled and minified CSS -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Latest compiled JavaScript -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- nesahat na řádky 1 až 13! -->
+
+
+      <!-- #EBEBEB - omítkové bělmo -->
+
+    <style>
+
+        body {
+          background-color: #EBEBEB ; 
+        }
+
+        footer {
+          background-color: #11014D ; 
+        }
+
+
+       h2, h3, h4, h6, p {
+        padding-left: 80px;
+        padding-right: 80px;
+        padding-bottom: 20px;
+      }
+
+      ul, ol {
+        padding-left: 200px;,
+      }
+
+      h1 {
+        padding-left: 260px;
+
+      }
+
+      .obrazky {
+        padding-left: 90px;
+        padding-right: 70px;
+
+      }
+      
+      .navbar-brand {
+          background-color: #F16D00 ;
+
+      }
+
+      
+
+
+    </style>
+
+  </head>
+  <body>
+
+    <!-- panel nahoře s odkazy na kapitoly a logem -->
+
+    <nav class="navbar navbar-expand-sm bg-light fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img src="./snickers/ok.jpg" width=" 50px" height=" 50px"> </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="#galerie">Galerie</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#onas">O nás</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#restaurace">Restaurace </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#prace">Služby </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#pracovnici">Volné pracovní pozice a brigády</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#kontakty">Kontakty</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+    <!-- Carousel -->
+<div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+    <!-- Indicators/dots -->
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="3"></button>
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="4"></button>
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="5"></button>
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="6"></button>
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="7"></button>
+    </div>
+  
+    <!-- The slideshow/carousel --> <!-- hustá posouvací nástěnka obrázků -->
+    <h2 id="galerie"></h2>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="./snickers/bagr.jpg" alt="bagr" class="d-block w-100">
+      </div>
+      <div class="carousel-item">
+        <img src="./snickers/farming18s.jpg" alt="kombajn" class="d-block w-100">
+      </div>                                                              
+      <div class="carousel-item">
+        <img src="./snickers/hydrant.jpg" alt="hydrant" class="d-block w-100">
+      </div>
+      <div class="carousel-item">
+        <img src="./snickers/hospoda.jpg" alt="hospoda" class="d-block w-100">
+      </div>
+      <div class="carousel-item">
+        <img src="./snickers/dastrilion.jpg" alt="cash" class="d-block w-100">
+      </div>
+      <div class="carousel-item">
+        <img src="./snickers/cooking.jpg" alt="cooking" class="d-block w-100">
+      </div>
+      <div class="carousel-item">
+        <img src="./snickers/oil.jpg" alt="oil" class="d-block w-100">
+      </div>
+      <div class="carousel-item">
+        <img src="./snickers/trava.jpg" alt="trava" class="d-block w-100">
+      </div>
+    </div>
+  
+    <!-- Left and right controls/icons -->
+    <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </button>
+  </div>
+
+  <div class="container">
+    <br>
+    <br>
+    
+    <h1 class="display-1">Práce všeho druhu</h1>
+  </div>
+  <h2 id="onas"></h2>
+  <div class="row">
+    <div class="col-sm-6">
+     <h4> O nás: </h4>
+     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi tenetur quae laboriosam ab distinctio veritatis, recusandae culpa eaque quibusdam dolore error animi voluptate cupiditate, dignissimos iure a maxime neque placeat!
+      Nemo eius tempora enim corporis provident fugiat necessitatibus officiis odit consectetur, distinctio voluptatibus praesentium delectus. Tenetur, iure magni quasi dolorem impedit, ducimus quis, sunt quo illum vitae obcaecati distinctio provident. </p>
+       
+    </div>
+    <div class="col-sm-6">
+             
+    <!-- informace o firmě -->
+   
+     
+</div>
+</div>
+  
+    <!-- naše pracovní vozidla s nějakým popisem -->
+
+<div class="container mt-3"></div>
+    <h2></h2>
+    <div class="row">
+        <h2 id="restaurace"></h2>
+    
+    <div class="col-md-4">
+        <h3>Pivařství</h3>
+    <img class="obrazky" src="./snickers/pivooo.png" alt="pivo" width="450px" height="300px">
+     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est suscipit iure obcaecati quam cum asperiores. Culpa quos aperiam voluptate fugit ipsam placeat reprehenderit quisquam. Officia voluptate soluta architecto labore deleniti?
+     Cumque nostrum sit quos tempore molestias inventore aliquid. Illum, est quis atque labore similique a laudantium necessitatibus architecto, aperiam possimus nesciunt eius dolorum molestiae! Delectus in soluta nihil recusandae. Necessitatibus.
+     Eum blanditiis tempore molestiae saepe explicabo corrupti voluptas distinctio. Consectetur eveniet voluptates ducimus vero quasi sint quia blanditiis omnis commodi quos quis, cupiditate aliquam veritatis sequi deserunt voluptatibus totam quisquam.</p>
+                  <!-- článek o pivařství -->
+    </div>
+
+
+<div class="col-md-4">
+    <h3>Tradiční kuchyně</h3>
+    <img class="obrazky" src="./snickers/cooking2.jpg" alt="jidlo" width="500px" height="300px">
+    
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus a sint deserunt ab temporibus cumque. Aut, voluptatibus! Dolorum atque enim dolore sit voluptatem odio excepturi nihil. Ea voluptates incidunt dolor?
+    Debitis in dignissimos iure ducimus sed rerum voluptatem? Neque minima consequatur non eum itaque placeat, est accusantium ea voluptates enim harum! Ex ut modi molestiae alias optio esse distinctio eligendi!
+    Voluptatum sint culpa itaque consectetur quos aliquam qui porro, ut hic, enim unde nostrum labore vero doloribus eaque ad eius error accusantium quas. Rem maiores aut eius hic! Quia, voluptate?</p>
+                <!-- článek o tradiční kuchyni -->
+    </div>
+
+<div class="col-md-4">
+    <h3>Zahraniční kuchyně</h3>
+    <img class="obrazky" src="./snickers/sushi.jpg" alt="sushi" width="500px" height="300px">
+    
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias dignissimos cum ipsum modi. Vero incidunt est libero! Aliquid, placeat atque consequatur qui quae, quo quis autem, eos est voluptas eligendi?
+    Ex voluptatem tenetur, id doloribus ullam tempore cupiditate, est adipisci ipsum quia reprehenderit odit iusto error qui, eum nemo dignissimos fugit sit itaque maiores delectus distinctio consequuntur! Ex, sed pariatur!
+    Unde dolores repellat inventore culpa perferendis! Maxime aliquam, at quae tempore quam, consequatur praesentium delectus dicta assumenda quis recusandae pariatur vero deleniti, accusamus magni est! Delectus distinctio vel perspiciatis culpa.</p>
+                <!-- článek o zahraniční kuchyni -->
+       
+                
+
+    </div>
+
+</div>
+
+
+</div>
+
+<br>
+<br>
+<br>
+
+<div class="container mt-3"></div>
+    <h2></h2>
+    <div class="row">
+        <h2 id="prace"></h2>
+
+<div class="col-md-4">
+  <h3>Instalační práce</h3>
+<img class="obrazky" src="./snickers/hydrant.jpg" alt="hydrant" width="450px" height="300px">
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est suscipit iure obcaecati quam cum asperiores. Culpa quos aperiam voluptate fugit ipsam placeat reprehenderit quisquam. Officia voluptate soluta architecto labore deleniti?
+Cumque nostrum sit quos tempore molestias inventore aliquid. Illum, est quis atque labore similique a laudantium necessitatibus architecto, aperiam possimus nesciunt eius dolorum molestiae! Delectus in soluta nihil recusandae. Necessitatibus.
+Eum blanditiis tempore molestiae saepe explicabo corrupti voluptas distinctio. Consectetur eveniet voluptates ducimus vero quasi sint quia blanditiis omnis commodi quos quis, cupiditate aliquam veritatis sequi deserunt voluptatibus totam quisquam.</p>
+            <!-- článek o instalačních pracech -->
+</div>
+
+
+<div class="col-md-4">
+<h3>Stavební práce</h3>
+<img class="obrazky" src="./snickers/cihla.jpg" alt="cihla" width="500px" height="300px">
+
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus a sint deserunt ab temporibus cumque. Aut, voluptatibus! Dolorum atque enim dolore sit voluptatem odio excepturi nihil. Ea voluptates incidunt dolor?
+Debitis in dignissimos iure ducimus sed rerum voluptatem? Neque minima consequatur non eum itaque placeat, est accusantium ea voluptates enim harum! Ex ut modi molestiae alias optio esse distinctio eligendi!
+Voluptatum sint culpa itaque consectetur quos aliquam qui porro, ut hic, enim unde nostrum labore vero doloribus eaque ad eius error accusantium quas. Rem maiores aut eius hic! Quia, voluptate?</p>
+          <!-- článek o stavbě -->
+</div>
+
+<div class="col-md-4">
+<h3>Těžební práce</h3>
+<img class="obrazky" src="./snickers/oil.jpg" alt="oil" width="500px" height="300px">
+
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias dignissimos cum ipsum modi. Vero incidunt est libero! Aliquid, placeat atque consequatur qui quae, quo quis autem, eos est voluptas eligendi?
+Ex voluptatem tenetur, id doloribus ullam tempore cupiditate, est adipisci ipsum quia reprehenderit odit iusto error qui, eum nemo dignissimos fugit sit itaque maiores delectus distinctio consequuntur! Ex, sed pariatur!
+Unde dolores repellat inventore culpa perferendis! Maxime aliquam, at quae tempore quam, consequatur praesentium delectus dicta assumenda quis recusandae pariatur vero deleniti, accusamus magni est! Delectus distinctio vel perspiciatis culpa.</p>
+          <!-- článek o těžbě -->
+ 
+          </div>
+
+        </div>
+<br>
+<br>
+<br>
+
+
+<h2 id="pracovnici"></h2>
+  <div class="row">
+    <div class="col-sm-6">
+      <h3>Proč hledat práci či brigádu ve firmě Práce všeho druhu?</h3>
+       <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae tenetur, hic repellendus ipsam architecto recusandae? Eius laborum voluptas atque aut harum dignissimos, enim quisquam debitis! Magnam maxime voluptates provident laboriosam.</p>
+        <ul>
+          <li><h6>Široké spektrum zkušeností</h6></li>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos dolore nisi, animi quod natus aliquid qui doloremque quaerat accusantium pariatur rem nihil facilis autem excepturi ea reprehenderit itaque, omnis molestias. </p>
+          <li><h6>Flexibilní pracovní doba</h6></li>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus vitae suscipit reprehenderit illum porro id veritatis odit ipsum labore enim voluptatum, ut optio sint deserunt, expedita amet cupiditate natus repellendus.</p>
+          <li><h6>Přátelský a podporující kolektiv</h6></li>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nostrum tempore illo, laboriosam delectus eum omnis fuga libero tenetur. Magnam ad ea consectetur numquam doloremque tempore inventore quasi deserunt nobis ab!</p>
+          <li><h6>Možnost kariérního růstu</h6></li>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum nisi harum odio ratione ipsa officiis, architecto quibusdam perferendis et adipisci ipsam in laboriosam odit pariatur expedita repellendus facere vel? Voluptate!</p>
+        </ul>
+  
+      </div>
+
+
+      <div class="container mt-3"></div>
+    <h2></h2>
+    <div class="row">
+        <h2 id="kontakty"></h2>
+<footer class="footer">
+  <div class="footer-content  text-light">
+      <p>&copy; Práce všeho druhu s.r.o. 2024 </p>
+      <nav>
+          <ul>
+              <h6>Kontakty :</h6>
+                  <p>Tel: +420 662 537 012</p>
+                  <p>Email : pracevsehodruhu@prace.com</p>
+                  <h6>Navštivte nás :</h6>
+                  <p>Bramborová 419 Brno </p>
+          </ul>
+      </nav>
+  </div>
+</footer>
+</body>
